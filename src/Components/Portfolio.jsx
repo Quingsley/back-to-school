@@ -32,8 +32,7 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "Flutter & Riverpod",
-    description:
-      "A simple flutter app that implements it's state management using riverpod",
+    description: "A simple flutter app that implements it's state management using riverpod",
     url: "https://github.com/Quingsley/flutter-riverpod-2",
   },
   {
@@ -50,14 +49,12 @@ const projectList = [
   },
   {
     title: "School site",
-    description:
-      "Created a simple site using html, css and Js for my former high school",
+    description: "Created a simple site using html, css and Js for my former high school",
     url: "https://quingtech.netlify.app/",
   },
   {
     title: "URL SHORTENER",
-    description:
-      "Created a simple node-js service that is used to shorten long URLS",
+    description: "Created a simple node-js service that is used to shorten long URLS",
     url: "https://github.com/Quingsley/url-shortener-backend",
   },
   {
@@ -76,7 +73,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideIn" }}
             alt={imageAltText}
           />
         </div>
