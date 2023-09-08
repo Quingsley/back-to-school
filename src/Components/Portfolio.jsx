@@ -31,28 +31,40 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Flutter & Riverpod",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A simple flutter app that implements it's state management using riverpod",
+    url: "https://github.com/Quingsley/flutter-riverpod-2",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Flutter on the web",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A simple flutter web app, that was curiated while learning riverpod, animations with rive and responsive design",
+    url: "https://portfolio-5348a.web.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Flutter Fridays",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This repository contains materials and projects that we used as GDSC Moi while teaching flutter to beginners",
+    url: "https://github.com/Quingsley/flutter-fridays",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "School site",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Created a simple site using html, css and Js for my former high school",
+    url: "https://quingtech.netlify.app/",
+  },
+  {
+    title: "URL SHORTENER",
+    description:
+      "Created a simple node-js service that is used to shorten long URLS",
+    url: "https://github.com/Quingsley/url-shortener-backend",
+  },
+  {
+    title: "Image-Service",
+    description:
+      "A backend service that enables CRUD operations on images. Images are being stored using supabase",
+    url: "https://github.com/Quingsley/image-service",
   },
 ];
 

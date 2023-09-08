@@ -23,20 +23,19 @@ const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+const description ="I am a passionate Software developer that enyoys crafting solutions that solve real world problems";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
+  "Mobile app development",
+  "Web development",
+  "Server side Development",
   "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Database design",
+  "Version control",
 ];
 
 /**
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am a full stack developer with three years of coding experience. My primary focus is on building modern web applications using HTML, CSS, and JavaScript, with a strong emphasis on user experience and responsive design. I also have experience working with TypeScript and Node.js for backend development, as well as building mobile applications with Flutter. My ultimate goal is to continuously learn and improve my skills in order to become a proficient full stack developer. Thank you for visiting my page!";
 
 const About = () => {
   return (
